@@ -41,14 +41,7 @@ describe 'sign in', :type => :feature do
     click_button 'createLabel-labeloptions-print-btn'
     sleep 5
     make_screenshot
+
+
   end
 end
-
-# "company": "BCCI",
-# "fullName": "Sachin Tendulkar",
-# "streetLine1": "37 Executive Drive",
-# "city": "Danbury",
-# "state": "CT",
-# "postalCode": "06810",
-# "isoCountry": "US",
-# "phone":"1111111111",
