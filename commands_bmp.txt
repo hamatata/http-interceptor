@@ -1,0 +1,10 @@
+./browsermob-proxy-2.1.2/bin/browsermob-proxy -port 8080
+
+# make a proxy
+curl -X POST 0.0.0.0:8080/proxy
+# start a har
+curl -X PUT 0.0.0.0:8080/proxy/8081/har
+# request google over our proxy
+curl -k -x 0.0.0.0:8081 https://www.google.com -o /dev/null
+# get the har back
+curl 0.0.0.0:8080/proxy/8081/har

@@ -50,7 +50,7 @@ end
 
 def verify_recipient_and_continue
   click_button 'createLabel-verifyRecipient-and-continue'
-  sleep 2
+  #sleep 2
   click '.modal-dialog #createLabel-verifyAddress-suggested'
 end
 
