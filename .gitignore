@@ -1,5 +1,9 @@
 .idea
-Gemfile.lock
-temp
 .config
-reports/
+reports
+Gemfile.*
+browsermob*
+*.har
+*.log
+*.jpg
+temp
